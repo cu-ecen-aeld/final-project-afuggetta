@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SENSOR_DAEMON
+    bool "sensor daemon (placeholder)"
+    help
+      Placeholder for userspace sensor daemon that reads proximity
+      and writes to /dev/envchar. Implementation in Sprint 2.

@@ -1,0 +1,7 @@
+menu "Base external customizations"
+
+source "$BR2_EXTERNAL_project_base_PATH/package/envchar/Config.in"
+source "$BR2_EXTERNAL_project_base_PATH/package/sensor_daemon/Config.in"
+source "$BR2_EXTERNAL_project_base_PATH/package/aesdserver/Config.in"
+
+endmenu
