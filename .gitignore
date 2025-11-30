@@ -1,0 +1,4 @@
+buildroot/output/
+*.o
+*.tar.gz
+*~

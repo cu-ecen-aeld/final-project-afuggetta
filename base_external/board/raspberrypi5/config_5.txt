@@ -1,0 +1,12 @@
+kernel=Image
+
+# Disable overscan assuming the display supports displaying the full resolution
+disable_overscan=1
+
+# Enable VC4 KMS graphics
+dtoverlay=vc4-kms-v3d
+
+# Official 7" DSI touchscreen on Pi 4/5
+dtoverlay=vc4-kms-v3d
+dtoverlay=vc4-kms-dsi-7inch
+ignore_lcd=0
