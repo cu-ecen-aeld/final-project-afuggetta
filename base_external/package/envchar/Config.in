@@ -1,5 +1,5 @@
 config BR2_PACKAGE_ENVCHAR
-    bool "envchar kernel module (placeholder)"
+    bool "envchar kernel module"
     help
-      Placeholder for envchar kernel module providing /dev/envchar.
-      Implementation will be added in Sprint 2.
+      Kernel module providing /dev/envchar character device.
+      Used to store timestamped environment/presence records.
