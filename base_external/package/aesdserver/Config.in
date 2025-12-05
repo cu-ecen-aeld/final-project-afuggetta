@@ -1,5 +1,0 @@
-config BR2_PACKAGE_AESDSERVER
-    bool "extended aesdserver (placeholder)"
-    help
-      Placeholder for extended aesdsocket-based TCP server.
-      Implementation in Sprint 2.

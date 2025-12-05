@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AESDSOCKET
+	bool "aesdsocket"
+	help
+	  TCP server implementing the final project protocol.
+	  Listens on port 9000 and serves data from /dev/envchar.
